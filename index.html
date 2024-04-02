@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Explicando Formulários no HTML</title>
 </head>
 <body>
-    <h1>Como funciona o container form?</h1>
+    <main class="main">
+        <div class="container">
+            <h1 class="pergunta">Como funciona o container form?</h1>
+            <p class="resposta">
+                O Form é um container que permite agrupar controles para entrada de dados, nos permitindo, 
+                por exemplo, criar uma tela para as configurações do nosso aplicativo. 
+                Vale salientar que alguns dos elementos precisam de uma variável de controle, 
+                que tem o papel de armazenar o estado daquele elemento.
+            </p>
+        </div>
+        <div class="separacao-conteudo"></div>
+
+
+
+
+        <div class="container">
+            <h1 class="pergunta">Quais os tipos de input?</h1>
+            <p class="titulo-input"><span>< input type="text" ></span></p>
+            <form method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </form>
+        </div>
+
+        <div class="container">
+            <p class="titulo-input"><span>< input type="password" ></span></p>
+            <form method="post">
+                <label for="fname">First name:</label><br>
+                <input type="password" id="fname" name="fname"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="password" id="lname" name="lname">
+            </form>
+        </div>
+
+
+
+
+
+
+
+        <div class="separacao-conteudo"></div>
+        <div class="container">
+            <h1 class="pergunta">Como funciona o post?</h1>
+            <p class="resposta">
+                Post é o conteúdo criado e publicado em alguma plataforma da internet. 
+                Essa publicação pode ter o formato de imagem, vídeo, texto, áudio ou todos eles juntos. 
+                As principais plataformas de publicação de posts são as redes sociais e os blogs. 
+                Sendo assim, post é todo o conteúdo que é postado na internet
+            </p>
+            <p class="resposta">
+                Quando o usuário digita um endereço e aperta enter na barra de endereço do navegador,
+                 ele realiza uma requisição do tipo GET. Já quando preenchemos um formulário e clicamos em enviar geralmente o método usado é o POST.
+            </p>
+        </div>
+    </main>
 </body>
 </html>
